@@ -479,6 +479,17 @@ img {
   opacity: 1;
 }
 
+.language-selector {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 2px solid var(--third-color);
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 4px;
+}
+
 /*=============== CHOOSE ===============*/
 .choose {
   padding-bottom: 0;
