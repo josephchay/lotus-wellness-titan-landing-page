@@ -254,6 +254,7 @@ img {
 .nav .nav__button {
   background-color: var(--first-color-light);
   border: none;
+  text-align: center;
 }
 
 /* Show menu */
@@ -379,6 +380,12 @@ img {
   display: flex;
   justify-items: center;
   align-items: center;
+}
+
+.logos.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logos__container {
@@ -921,6 +928,11 @@ img {
     align-items: center;
   }
 
+  .home__description {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .home__data,
   .choose__content .section__data,
   .choose__description,
@@ -989,6 +1001,11 @@ img {
     width: initial;
   }
 
+  .home__description {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .nav__toggle,
   .nav__close {
     display: none;
@@ -999,6 +1016,10 @@ img {
     padding: 0;
     align-items: center;
     column-gap: 4rem;
+  }
+
+  .nav__item {
+    text-align: center;
   }
 
   .section {
@@ -1028,6 +1049,15 @@ img {
   .home__img {
     width: 550px;
     transform: translateX(-6rem);
+  }
+
+  .home__img.isCn {
+    margin-left: 150px;
+  }
+
+
+  .home__img.isBm {
+    margin-left: 150px;
   }
 
   .home__triangle {
