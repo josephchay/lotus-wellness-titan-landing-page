@@ -43,6 +43,14 @@ let naturalExtracts = document.querySelector(".naturalExtracts")
 let footerProducts = document.querySelector(".footerProducts")
 let footerMenu = document.querySelector(".footerMenu")
 
+let whoAreWeAbout = document.querySelector(".whoAreWeAbout")
+let weAreAbout = document.querySelector(".weAreAbout")
+
+let subscribeCTA = document.querySelector(".subscribeCTA")
+
+let yourEmailCTA = document.querySelector(".yourEmailCTA")
+let subscribeBtnCTA = document.querySelector(".subscribeBtnCTA")
+
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
       lanSelect.classList.remove("eng")
@@ -121,6 +129,14 @@ lanSelect.addEventListener("click", () => {
          purchasesPurchases.innerHTML = "购买"
             healthyBenefits.innerHTML = "健康好处"
             naturalExtracts.innerHTML = "天然提取物"
+
+       whoAreWeAbout.innerHTML = "关于我们"
+         weAreAbout.innerHTML = "我们是一家专注于提供高品质健康产品的公司，我们的产品是由专业团队精心研发，旨在提高您的生活质量。"
+
+       subscribeCTA.innerHTML = "订阅公司最新动态"
+
+       yourEmailCTA.innerHTML = "您的电子邮件"
+         subscribeBtnCTA.innerHTML = "订阅"
 
    } else if (lanSelect.classList.contains("cn")) {
       lanSelect.classList.remove("cn")
@@ -211,6 +227,14 @@ lanSelect.addEventListener("click", () => {
          purchasesPurchases.innerHTML = "Pembelian"
             healthyBenefits.innerHTML = "Manfaat Sihat"
             naturalExtracts.innerHTML = "Ekstrak Semulajadi"
+
+         whoAreWeAbout.innerHTML = "Tentang Kami"
+            weAreAbout.innerHTML = "Kami adalah syarikat yang memberi tumpuan kepada produk kesihatan berkualiti tinggi, produk kami direka khas oleh pasukan profesional, bertujuan untuk meningkatkan kualiti hidup anda."
+
+         subscribeCTA.innerHTML = "Langgan berita terkini syarikat"
+
+         yourEmailCTA.innerHTML = "Emel Anda"
+            subscribeBtnCTA.innerHTML = "Langgan"
 
    } else {
       lanSelect.classList.remove("bm")
@@ -308,7 +332,13 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
             purchasesPurchases.innerHTML = "Purchases"
                 healthyBenefits.innerHTML = "Healthy Benefits"
                 naturalExtracts.innerHTML = "Natural Extracts"
+
+            whoAreWeAbout.innerHTML = "About Us"
+            weAreAbout.innerHTML = "We are a company focused on providing high-quality health products, our products are carefully developed by a professional team, aimed at improving your quality of life."
+
+         subscribeCTA.innerHTML = "Subscribe for new company updates"
+
+            yourEmailCTA.innerHTML = "Your Email"
+            subscribeBtnCTA.innerHTML = "Subscribe"
    }
-
-
 });
