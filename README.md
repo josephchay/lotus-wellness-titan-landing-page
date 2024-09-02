@@ -1,7 +1,14 @@
-# Lotus Wellness TITAN Landing Page
+#  💪 Responsive Gym Website Design
+## [Watch it on youtube](https://youtu.be/ddaY0rHqMxM)
+### 💪 Responsive Gym Website Design
 
----
+- Responsive Gym Website Design Using HTML CSS & JavaScript
+- Contains animations when scrolling.
+- Includes a form to calculate body mass index.
+- Includes a form to send emails.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-## About
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
-A landing page for product named TITAN under lotus wellness brand, requested by (at the time) owner Jimmy Lui.
+![preview img](/preview.png)
