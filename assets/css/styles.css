@@ -342,6 +342,18 @@ img {
   margin: 0 auto;
 }
 
+.boxedUp {
+  display: inline-block;
+  background-color: var(--third-color-light);
+  padding: 18px 32px;
+  border: 2px solid var(--third-color);
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 10px;
+}
+
 /*=============== BUTTON ===============*/
 .button {
   display: inline-block;
