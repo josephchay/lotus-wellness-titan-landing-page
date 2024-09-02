@@ -873,7 +873,7 @@ img {
   background-color: var(--first-color);
   display: inline-flex;
   padding: .35rem;
-  color: var(--title-color-black);
+  color: var(--first-color-gray);
   font-size: 1.25rem;
   z-index: var(--z-tooltip);
   transition: .3s;
