@@ -1,10 +1,10 @@
 let lanSelect = document.querySelector(".language-selector")
 
-let navLinkHome = document.getElementById("navLinkHome")
-let navLinkAbout = document.getElementById("navLinkAbout")
-let navLinkIngredients = document.getElementById("navLinkIngredients")
+let navLinkHome = document.querySelectorAll(".navLinkHome")
+let navLinkAbout = document.querySelectorAll(".navLinkAbout")
+let navLinkIngredients = document.querySelectorAll(".navLinkIngredients")
 let navLinkContact = document.getElementById("navLinkContact")
-let navLinkWhyUs = document.getElementById("navLinkWhyUs")
+let navLinkWhyUs = document.querySelectorAll(".navLinkWhyUs")
 
 let hereToBoostYourHealth = document.getElementById("hereToBoostYour")
 let energyAndStrength = document.getElementById("energyAndStrength")
@@ -40,17 +40,35 @@ let purchasesPurchases = document.querySelector(".purchasesPurchases")
 let healthyBenefits = document.querySelector(".healthyBenefits")
 let naturalExtracts = document.querySelector(".naturalExtracts")
 
+let footerProducts = document.querySelector(".footerProducts")
+let footerMenu = document.querySelector(".footerMenu")
+
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
       lanSelect.classList.remove("eng")
       lanSelect.classList.add("cn")
       lanSelect.innerHTML = "中文"
 
-        navLinkHome.innerHTML = "首页"
-        navLinkAbout.innerHTML = "关于我们"
-        navLinkIngredients.innerHTML = "成分页"
+        navLinkHome.forEach((navLink) => {
+            navLink.innerHTML = "首页"
+        });
+
+        navLinkAbout.forEach((navLink) => {
+            navLink.innerHTML = "关于我们"
+        })
+
+        navLinkIngredients.forEach((navLink) => {
+            navLink.innerHTML = "成分页"
+        });
+
+        navLinkWhyUs.forEach((navLink) => {
+            navLink.innerHTML = "为什么选择我们"
+        });
+
+
+        footerProducts.innerHTML = "产品"
+        footerMenu.innerHTML = "导航"
         navLinkContact.innerHTML = "联系我们"
-        navLinkWhyUs.innerHTML = "为什么选择我们"
 
         hereToBoostYourHealth.innerHTML = "提高您的"
         energyAndStrength.innerHTML = "能量和力量"
@@ -109,12 +127,29 @@ lanSelect.addEventListener("click", () => {
       lanSelect.classList.add("bm")
       lanSelect.innerHTML = "BM"
 
-        navLinkHome.innerHTML = "Laman Utama"
-        navLinkAbout.innerHTML = "Tentang Kami"
-        navLinkIngredients.innerHTML = "Bahan-bahan"
-        navLinkContact.innerHTML = "Hubungi Kami"
-        navLinkWhyUs.innerHTML = "Mengapa Pilih Kami"
+       navLinkHome.forEach((navLink) => {
+            navLink.innerHTML = "Laman Utama"
 
+       });
+
+        navLinkAbout.forEach((navLink) => {
+            navLink.innerHTML = "Tentang Kami"
+        });
+
+        navLinkIngredients.forEach((navLink) => {
+            navLink.innerHTML = "Bahan-bahan"
+        })
+
+        navLinkWhyUs.forEach((navLink) => {
+
+            navLink.innerHTML = "Mengapa Pilih Kami"
+        })
+
+        navLinkContact.innerHTML = "Hubungi Kami"
+
+
+       footerProducts.innerHTML = "Produk"
+       footerMenu.innerHTML = "Menu"
         hereToBoostYourHealth.innerHTML = "MENINGKATKAN"
         energyAndStrength.innerHTML = "TENAGA & "
        energyAndStrength.appendChild(document.createElement("br"))
@@ -182,11 +217,26 @@ lanSelect.addEventListener("click", () => {
       lanSelect.classList.add("eng")
       lanSelect.innerHTML = "ENG"
 
-        navLinkHome.innerHTML = "Home"
-        navLinkAbout.innerHTML = "About Us"
-        navLinkIngredients.innerHTML = "Ingredients"
+        navLinkHome.forEach((navLink) => {
+            navLink.innerHTML = "Home"
+        });
+
+        navLinkAbout.forEach((navLink) => {
+            navLink.innerHTML = "About Us"
+        })
+
+        navLinkIngredients.forEach((navLink) => {
+            navLink.innerHTML = "Ingredients"
+        })
+
+        navLinkWhyUs.forEach((navLink) => {
+            navLink.innerHTML = "Why Us"
+        })
+
+       footerMenu.innerHTML = "Menu"
+        footerProducts.innerHTML = "Products"
+
         navLinkContact.innerHTML = "Contact Us"
-        navLinkWhyUs.innerHTML = "Why Us"
 
         hereToBoostYourHealth.innerHTML = "HERE TO BOOST YOUR"
         energyAndStrength.innerHTML = "ENERGY & "

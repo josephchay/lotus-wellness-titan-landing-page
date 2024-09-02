@@ -831,7 +831,7 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
   font-size: 1.25rem;
-  color: var(--title-color-black);
+  color: var(--first-color-gray);
   transition: background .4s;
 }
 
