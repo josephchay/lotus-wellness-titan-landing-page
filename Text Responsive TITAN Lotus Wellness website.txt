@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-BEROTOT
+LOTUS WELLNESS
 
 .nav__link
 Home
@@ -9,7 +9,7 @@ Ingredients
 
 Choose Us
 
-Pricing
+About Us
 
 .nav__button
 Register Now
