@@ -135,7 +135,7 @@ lanSelect.addEventListener("click", () => {
 
        subscribeCTA.innerHTML = "订阅公司最新动态"
 
-       yourEmailCTA.innerHTML = "您的电子邮件"
+       yourEmailCTA.placeholder = "您的电子邮件"
          subscribeBtnCTA.innerHTML = "订阅"
 
    } else if (lanSelect.classList.contains("cn")) {
@@ -233,7 +233,7 @@ lanSelect.addEventListener("click", () => {
 
          subscribeCTA.innerHTML = "Langgan berita terkini syarikat"
 
-         yourEmailCTA.innerHTML = "Emel Anda"
+         yourEmailCTA.placeholder = "Emel Anda"
             subscribeBtnCTA.innerHTML = "Langgan"
 
    } else {
@@ -338,7 +338,7 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
 
          subscribeCTA.innerHTML = "Subscribe for new company updates"
 
-            yourEmailCTA.innerHTML = "Your Email"
+            yourEmailCTA.placeholder = "Your Email"
             subscribeBtnCTA.innerHTML = "Subscribe"
    }
 });
