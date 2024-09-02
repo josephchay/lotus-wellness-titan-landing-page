@@ -35,6 +35,11 @@ let choose__description = document.querySelector(".choose__description")
 let bestReasons = document.querySelector(".bestReason")
 let bestReasonSub = document.querySelector(".bestReasonSub")
 
+let healthyIngredients = document.querySelector(".healthyIngredients")
+let purchasesPurchases = document.querySelector(".purchasesPurchases")
+let healthyBenefits = document.querySelector(".healthyBenefits")
+let naturalExtracts = document.querySelector(".naturalExtracts")
+
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
       lanSelect.classList.remove("eng")
@@ -93,6 +98,11 @@ lanSelect.addEventListener("click", () => {
        bestReasonSub.appendChild(tag3)
 
        choose__description.innerHTML = "被多名运动员和健身爱好者使用并信任，TITAN 是那些希望提升表现和实现健身目标的完美选择。"
+
+       healthyIngredients.innerHTML = "健康成分"
+         purchasesPurchases.innerHTML = "购买"
+            healthyBenefits.innerHTML = "健康好处"
+            naturalExtracts.innerHTML = "天然提取物"
 
    } else if (lanSelect.classList.contains("cn")) {
       lanSelect.classList.remove("cn")
@@ -160,7 +170,12 @@ lanSelect.addEventListener("click", () => {
        bestReasonSub.appendChild(tag2)
        bestReasonSub.appendChild(tag3)
 
-            choose__description.innerHTML = "Digunakan dan dipercayai oleh ramai atlet dan peminat kecergasan, TITAN adalah pilihan yang sempurna untuk mereka yang ingin meningkatkan prestasi dan mencapai matlamat kecergasan mereka."
+        choose__description.innerHTML = "Digunakan dan dipercayai oleh ramai atlet dan peminat kecergasan, TITAN adalah pilihan yang sempurna untuk mereka yang ingin meningkatkan prestasi dan mencapai matlamat kecergasan mereka."
+
+       healthyIngredients.innerHTML = "Bahan-bahan Sihat"
+         purchasesPurchases.innerHTML = "Pembelian"
+            healthyBenefits.innerHTML = "Manfaat Sihat"
+            naturalExtracts.innerHTML = "Ekstrak Semulajadi"
 
    } else {
       lanSelect.classList.remove("bm")
@@ -238,6 +253,11 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
 
             choose__description.innerHTML = "Used and trusted by many athletes and fitness enthusiasts, TITAN is the perfect choice for those looking to boost performance and achieve their fitness goals."
 
+
+         healthyIngredients.innerHTML = "Healthy Ingredients"
+            purchasesPurchases.innerHTML = "Purchases"
+                healthyBenefits.innerHTML = "Healthy Benefits"
+                naturalExtracts.innerHTML = "Natural Extracts"
    }
 
 
