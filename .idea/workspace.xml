@@ -167,30 +167,9 @@
       <change afterPath="$PROJECT_DIR$/../../python/ai-ml/paligemma-pytorch/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../github/config/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../github/config/assets/interests.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lotus-wellness-titan-landing-page.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logosmall-rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logosmall-transparent-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logosmall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan1-transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan12new.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan12new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan2-transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titan2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/img/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/index.html" afterDir="false" />
@@ -239,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725268709300</updated>
-      <workItem from="1725268712377" duration="5860000" />
+      <workItem from="1725268712377" duration="6867000" />
     </task>
     <servers />
   </component>

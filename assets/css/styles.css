@@ -17,6 +17,8 @@
   --text-color: hsl(180, 4%, 72%);
   --text-color-light: hsl(180, 4%, 65%);
   --body-color: #26272c;
+  --third-color: #3e3e3f;
+  --third-color-light: #66666a;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -368,18 +370,30 @@ img {
   column-gap: .5rem;
 }
 
-.button__flex:hover i {
-  transform: translateX(.25rem);
-}
+/*.button__flex:hover i {*/
+/*  transform: translateX(.25rem);*/
+/*}*/
 
 /*=============== LOGOS ===============*/
+.logos {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .logos__container {
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 2rem;
   justify-items: center;
 }
 
 .logos__img {
+  background-color: var(--third-color);
+  padding: 18px 32px;
+  border: 2px solid var(--third-color-light);
+  transition: background .3s;
+  border-radius: 4px;
+
   width: 120px;
 }
 
@@ -903,9 +917,9 @@ img {
     text-align: initial;
   }
 
-  .logos__container {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  /*.logos__container {*/
+  /*  grid-template-columns: repeat(4, 1fr);*/
+  /*}*/
 
   .program__container {
     grid-template-columns: repeat(2, 225px);
