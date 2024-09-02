@@ -31,6 +31,10 @@ let oysterExtractDesc = document.querySelector(".oysterExtractDesc")
 let epimediumBrevicornum = document.querySelector(".epimediumBrevicornum")
 let epimediumBrevicornumDesc = document.querySelector(".epimediumBrevicornumDesc")
 
+let choose__description = document.querySelector(".choose__description")
+let bestReasons = document.querySelector(".bestReason")
+let bestReasonSub = document.querySelector(".bestReasonSub")
+
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
       lanSelect.classList.remove("eng")
@@ -75,6 +79,21 @@ lanSelect.addEventListener("click", () => {
        epimediumBrevicornumDesc.innerHTML = "性欲:这种草药传统上用于增强性欲。\n" +
            "勃起功能:它可以通过增加血流量来帮助改善勃起功能。\n" +
            "骨骼健康:一些证据表明,它可以通过影响雌激素水平来支持骨骼健康。"
+
+       bestReasons.innerHTML = "TITAN 带来的好处"
+       bestReasonSub.innerHTML = ""
+
+       let tag2 = document.createElement("h1")
+       tag2.classList.add("section__title-border")
+       tag2.innerHTML = "为什么 "
+       let tag3 = document.createElement("h1")
+       tag3.classList.add("section__title")
+       tag3.innerHTML = "选择我们?"
+       bestReasonSub.appendChild(tag2)
+       bestReasonSub.appendChild(tag3)
+
+       choose__description.innerHTML = "被多名运动员和健身爱好者使用并信任，TITAN 是那些希望提升表现和实现健身目标的完美选择。"
+
    } else if (lanSelect.classList.contains("cn")) {
       lanSelect.classList.remove("cn")
       lanSelect.classList.add("bm")
@@ -129,6 +148,19 @@ lanSelect.addEventListener("click", () => {
                 "• Fungsi Erektil: la boleh membantu meningkatkan fungsi mencapai ereksi dengan meningkatkan aliran darah.\n" +
                 "·\n" +
                 "Kesihatan Tulang: Beberapa bukti menunjukkan ia boleh menyokong kesihatan tulang dengan mempengaruhi tahap estrogen."
+
+       bestReasons.innerHTML = "Manfaat TITAN"
+       bestReasonSub.innerHTML = ""
+       let tag2 = document.createElement("h1")
+       tag2.classList.add("section__title-border")
+       tag2.innerHTML = "MENGAPA "
+       let tag3 = document.createElement("h1")
+       tag3.classList.add("section__title")
+       tag3.innerHTML = "PILIH ?"
+       bestReasonSub.appendChild(tag2)
+       bestReasonSub.appendChild(tag3)
+
+            choose__description.innerHTML = "Digunakan dan dipercayai oleh ramai atlet dan peminat kecergasan, TITAN adalah pilihan yang sempurna untuk mereka yang ingin meningkatkan prestasi dan mencapai matlamat kecergasan mereka."
 
    } else {
       lanSelect.classList.remove("bm")
@@ -192,6 +224,19 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
            "                            Libido: This herb is traditionally used to enhance sexual desire.\n" +
            "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
            "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
+
+            bestReasons.innerHTML = "Benefits Reason"
+       bestReasonSub.innerHTML = ""
+            let tag2 = document.createElement("h1")
+            tag2.classList.add("section__title-border")
+            tag2.innerHTML = "WHY "
+       let tag3 = document.createElement("h1")
+         tag3.classList.add("section__title")
+            tag3.innerHTML = "CHOOSE US?"
+            bestReasonSub.appendChild(tag2)
+            bestReasonSub.appendChild(tag3)
+
+            choose__description.innerHTML = "Used and trusted by many athletes and fitness enthusiasts, TITAN is the perfect choice for those looking to boost performance and achieve their fitness goals."
 
    }
 
