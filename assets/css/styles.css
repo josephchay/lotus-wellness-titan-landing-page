@@ -131,7 +131,7 @@ img {
   font-family: var(--second-font);
   font-weight: 400;
   letter-spacing: 1.5px;
-  color: var(--first-color);
+  color: var(--first-color-light);
   transform: rotate(-2deg);
 }
 
@@ -394,7 +394,7 @@ img {
   transition: background .3s;
   border-radius: 4px;
 
-  width: 120px;
+  width: 200px;
 }
 
 /*=============== PROGRAM ===============*/
@@ -470,10 +470,10 @@ img {
   background-color: var(--first-color-light);
 }
 
-.program__card:hover .program__title,
-.program__card:hover .program__description {
-  color: var(--title-color-black);
-}
+/*.program__card:hover .program__title,*/
+/*.program__card:hover .program__description {*/
+/*  color: var(--title-color-black);*/
+/*}*/
 
 .program__card:hover .program__button {
   opacity: 1;
