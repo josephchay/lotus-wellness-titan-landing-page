@@ -883,6 +883,13 @@ img {
   transform: translateY(-.25rem);
 }
 
+.about__logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Show Scroll Up*/
 .show-scroll {
   bottom: 3rem;
