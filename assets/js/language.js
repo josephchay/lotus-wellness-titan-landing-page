@@ -31,6 +31,9 @@ let oysterExtractDesc = document.querySelector(".oysterExtractDesc")
 let epimediumBrevicornum = document.querySelector(".epimediumBrevicornum")
 let epimediumBrevicornumDesc = document.querySelector(".epimediumBrevicornumDesc")
 
+let longifoliaExtract = document.querySelector(".longifoliaExtract")
+let longifoliaExtractDesc = document.querySelector(".longifoliaExtractDesc")
+
 let choose__description = document.querySelector(".choose__description")
 let bestReasons = document.querySelector(".bestReason")
 let bestReasonSub = document.querySelector(".bestReasonSub")
@@ -110,6 +113,12 @@ lanSelect.addEventListener("click", () => {
        epimediumBrevicornumDesc.innerHTML = "性欲:这种草药传统上用于增强性欲。\n" +
            "勃起功能:它可以通过增加血流量来帮助改善勃起功能。\n" +
            "骨骼健康:一些证据表明,它可以通过影响雌激素水平来支持骨骼健康。"
+
+       longifoliaExtract.innerHTML = "东革阿里"
+         longifoliaExtractDesc.innerHTML = "睾酮水平:这种草药因其提高睾酮水平的潜力而闻名,这有助于增加肌 肉质量和力量。\n" +
+         "性健康:它可以提高性欲和性能力。\n" +
+         "·\n" +
+         "减轻压力:一些研究表明,它可以帮助降低皮质醇水平,从而可能减轻 压力。"
 
        bestReasons.innerHTML = "TITAN 带来的好处"
        bestReasonSub.innerHTML = ""
@@ -209,6 +218,11 @@ lanSelect.addEventListener("click", () => {
                 "• Fungsi Erektil: la boleh membantu meningkatkan fungsi mencapai ereksi dengan meningkatkan aliran darah.\n" +
                 "·\n" +
                 "Kesihatan Tulang: Beberapa bukti menunjukkan ia boleh menyokong kesihatan tulang dengan mempengaruhi tahap estrogen."
+
+         longifoliaExtract.innerHTML = "Ekstrak Longifolia"
+            longifoliaExtractDesc.innerHTML = "Tahap Testosteron: Herba ini terkenal dengan potensinya untuk meningkatkan tahap testosteron, yang boleh membantu dengan jisim dan kekuatan otot.\n" +
+                "•\n" +
+                "Kesihatan Seksual: la boleh meningkatkan tahap libido dan prestasi seksual. Pengurangan Tekanan: Sesetengah penyelidikan menunjukkan ia boleh membantu mengurangkan tahap kortisol, berpotensi menurunkan tekanan."
 
        bestReasons.innerHTML = "Manfaat TITAN"
        bestReasonSub.innerHTML = ""
@@ -313,6 +327,12 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
            "                            Libido: This herb is traditionally used to enhance sexual desire.\n" +
            "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
            "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
+
+         longifoliaExtract.innerHTML = "Epimedium Brevicornum"
+            longifoliaExtractDesc.innerHTML = "\n" +
+                "                            Libido: This herb is traditionally used to enhance sexual desire.\n" +
+                "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
+                "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
 
             bestReasons.innerHTML = "Benefits Reason"
        bestReasonSub.innerHTML = ""
