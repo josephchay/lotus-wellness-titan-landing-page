@@ -418,7 +418,7 @@ img {
 
 /*=============== PROGRAM ===============*/
 .program__container {
-  grid-template-columns: 225px;
+  grid-template-columns: 400px;
   justify-content: center;
   row-gap: 2rem;
 }
@@ -966,7 +966,7 @@ img {
   /*}*/
 
   .program__container {
-    grid-template-columns: repeat(2, 225px);
+    grid-template-columns: repeat(2, 400px);
     gap: 2.5rem;
   }
 
@@ -1188,7 +1188,7 @@ img {
   }
 
   .program__container {
-    grid-template-columns: repeat(4, 245px);
+    grid-template-columns: repeat(3, 400px);
     padding: 3rem 0;
   }
 
