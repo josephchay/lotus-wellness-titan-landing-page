@@ -8,9 +8,19 @@ A landing page for product named TITAN under lotus wellness brand, requested by 
 
 ## Demo
 
-![TITAN](preview.jpg)
-
 [![Live-Site](https://img.shields.io/website?url=https://lotuswellness.online/&style=for-the-badge)](https://lotuswellness.online/)
+
+![HEADER](preview-header.jpg)
+
+![INGREDIENTS](preview-ingredients.jpg)
+
+![WHY US](preview-why-us.jpg)
+
+![WHO ARE WE](preview-who-are-we.jpg)
+
+![FOOTER](preview-footer.jpg)
+
+## Domain & Hosting Information
 
 The site is hosted with [Hostinger](https://www.hostinger.com/) under the email address fortestings7575757@gmail.com.
 
