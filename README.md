@@ -24,8 +24,10 @@ A landing page for product named TITAN under lotus wellness brand, requested by 
 
 The domain and website is hosted with [Hostinger](https://www.hostinger.com/) under the email address fortestings7575757@gmail.com.
 
-Domain [lotuswellness.online](https://www.lotuswellness.online) renting from 3rd September 2024 to 3rd September 2025 (expiring date and NOTE: it will renew!. Please cancel if needed).
+Domain [lotuswellness.online](https://www.lotuswellness.online) renting from 3rd September 2024 to 3rd September 2025.
 
 The Domain last for a year from **3rd September 2024** - **3rd September 2025**.
 
 The site hosting last for 2 years from **3rd September 2024** - **3rd September 2026**.
+
+NOTE: The expiring dates will renew!. Please cancel if needed.
