@@ -507,6 +507,8 @@ img {
   cursor: pointer;
   transition: background .3s;
   border-radius: 4px;
+
+  width: 75px;
 }
 
 /*=============== CHOOSE ===============*/
