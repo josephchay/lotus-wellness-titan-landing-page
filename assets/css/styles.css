@@ -949,6 +949,16 @@ img {
   }
 }
 
+@media screen and (max-width: 410px) {
+  .program__container {
+    grid-template-columns: 1fr;
+  }
+
+  .program__card {
+    margin: 0 10px;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 768px) {
   .nav__menu {
