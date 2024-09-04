@@ -328,11 +328,10 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
            "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
            "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
 
-         longifoliaExtract.innerHTML = "Epimedium Brevicornum"
-            longifoliaExtractDesc.innerHTML = "\n" +
-                "                            Libido: This herb is traditionally used to enhance sexual desire.\n" +
-                "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
-                "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
+         longifoliaExtract.innerHTML = "Eurycoma longifolia Extract"
+            longifoliaExtractDesc.innerHTML = "Testosterone Levels: This herb is known for its potential to" +
+                " increase testosterone levels, which can help with muscle mass and strength. Sexual Health: " +
+                "It may improve libido and sexual performance. Stress Reduction: Some research indicates it can help reduce cortisol levels, potentially lowering stress."
 
             bestReasons.innerHTML = "Benefits Reason"
        bestReasonSub.innerHTML = ""
