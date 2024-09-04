@@ -183,26 +183,35 @@ img {
 }
 
 .nav__logo,
-.nav__toggle {
+.nav__toggle,
+.footer__logo,
+.about__logos {
   color: var(--title-color);
   display: flex;
 }
 
-.nav__logo {
+.nav__logo,
+.footer__logo,
+.about__logos {
   align-items: center;
   column-gap: .5rem;
   font-weight: var(--font-bold);
 }
 
-.nav__logo p {
+.nav__logo p,
+.footer__logo p,
+.about__logos p {
   font-size: 20px;
 }
 
-.nav__logo img {
+.nav__logo img,
+.footer__logo img {
   width: 2rem;
 }
 
-.nav__logo span {
+.nav__logo span,
+.footer__logo span,
+.about__logos span {
   color: var(--first-color-light);
 }
 
@@ -684,7 +693,6 @@ img {
 }
 
 .calculate__content .section__titles {
-  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -890,6 +898,10 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.about__logos p {
+  font-size: 40px;
 }
 
 /* Show Scroll Up*/
