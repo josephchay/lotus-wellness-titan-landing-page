@@ -683,35 +683,35 @@ img {
   color: var(--title-color-black);
 }
 
-/*=============== CALCULATE ===============*/
-.calculate {
+/*=============== WHO ARE WE ===============*/
+.whoarewe {
   padding-bottom: 0;
 }
 
-.calculate__container {
+.whoarewe__container {
   row-gap: 4rem;
 }
 
-.calculate__content .section__titles {
+.whoarewe__content .section__titles {
   text-align: center;
 }
 
-.calculate__description {
+.whoarewe__description {
   text-align: center;
   margin-bottom: 2.5rem;
 }
 
-.calculate__form {
+.whoarewe__form {
   display: grid;
   row-gap: 1rem;
 }
 
-.calculate__box {
+.whoarewe__box {
   position: relative;
   border: 2px solid var(--first-color-light);
 }
 
-.calculate__input {
+.whoarewe__input {
   width: 100%;
   background: transparent;
   padding: 20px 56px 20px 24px;
@@ -720,33 +720,33 @@ img {
   color: var(--text-color);
 }
 
-.calculate__input::-webkit-outer-spin-button,
-.calculate__input::-webkit-inner-spin-button {
+.whoarewe__input::-webkit-outer-spin-button,
+.whoarewe__input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.calculate__input[type=number] {
+.whoarewe__input[type=number] {
   -moz-appearance: textfield;
 }
 
-.calculate__label {
+.whoarewe__label {
   position: absolute;
   right: 1.5rem;
   top: 1.25rem;
   color: var(--title-color);
 }
 
-.calculate__form .button {
+.whoarewe__form .button {
   margin-top: 1.5rem;
 }
 
-.calculate__img {
+.whoarewe__img {
   width: 200px;
   justify-self: center;
 }
 
-.calculate__message {
+.whoarewe__message {
   position: absolute;
   transform: translateY(1rem);
 }
@@ -979,7 +979,7 @@ img {
   .home__data,
   .choose__content .section__data,
   .choose__description,
-  .calculate__description {
+  .whoarewe__description {
     text-align: initial;
   }
 
@@ -1001,7 +1001,7 @@ img {
   }
 
   .choose__content .section__titles,
-  .calculate__content .section__titles {
+  .whoarewe__content .section__titles {
     justify-content: initial;
   }
 
@@ -1010,17 +1010,17 @@ img {
     gap: 2.5rem;
   }
 
-  .calculate__container {
+  .whoarewe__container {
     grid-template-columns: 1fr .8fr;
     align-items: center;
   }
 
-  .calculate__form {
+  .whoarewe__form {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
   }
 
-  .calculate__form .button {
+  .whoarewe__form .button {
     grid-column: 1 / 3;
   }
 
@@ -1259,15 +1259,15 @@ img {
     row-gap: 2.5rem;
   }
 
-  .calculate__description {
+  .whoarewe__description {
     width: 415px;
   }
 
-  .calculate__form {
+  .whoarewe__form {
     width: 505px;
   }
 
-  .calculate__img {
+  .whoarewe__img {
     width: 300px;
   }
 
