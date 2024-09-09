@@ -426,13 +426,13 @@ img {
 }
 
 /*=============== PROGRAM ===============*/
-.program__container {
+.ingredients__container {
   grid-template-columns: 400px;
   justify-content: center;
   row-gap: 2rem;
 }
 
-.program__card {
+.ingredients__card {
   display: grid;
   background-color: hsla(79, 6%, 64%, .07);
   padding: 1.5rem 2rem;
@@ -440,11 +440,11 @@ img {
   transition: background .5s, border .4s;
 }
 
-.program__img {
+.ingredients__img {
   width: 38px;
 }
 
-.program__shape {
+.ingredients__shape {
   width: 50px;
   height: 50px;
   background-color: var(--first-color-gray);
@@ -455,23 +455,23 @@ img {
   transition: background .5s;
 }
 
-.program__title {
+.ingredients__title {
   font-size: var(--h3-font-size);
   margin-bottom: 1rem;
 }
 
-.program__description {
+.ingredients__description {
   font-size: var(--small-font-size);
   letter-spacing: .5px;
   line-height: 150%;
 }
 
-.program__title,
-.program__description {
+.ingredients__title,
+.ingredients__description {
   transition: color .5s;
 }
 
-.program__button {
+.ingredients__button {
   justify-self: flex-end;
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -480,30 +480,30 @@ img {
   transition: opacity .4s;
 }
 
-.program__button i {
+.ingredients__button i {
   display: block;
   transition: transform .3s;
 }
 
-.program__button:hover i {
+.ingredients__button:hover i {
   transform: translateX(.25rem);
 }
 
-.program__card:hover {
+.ingredients__card:hover {
   background-color: var(--first-color);
   border: 2px solid var(--first-color-light);
 }
 
-.program__card:hover .program__shape {
+.ingredients__card:hover .ingredients__shape {
   background-color: var(--first-color-light);
 }
 
-/*.program__card:hover .program__title,*/
-/*.program__card:hover .program__description {*/
+/*.ingredients__card:hover .ingredients__title,*/
+/*.ingredients__card:hover .ingredients__description {*/
 /*  color: var(--title-color-black);*/
 /*}*/
 
-.program__card:hover .program__button {
+.ingredients__card:hover .ingredients__button {
   opacity: 1;
 }
 
@@ -950,11 +950,11 @@ img {
 }
 
 @media screen and (max-width: 410px) {
-  .program__container {
+  .ingredients__container {
     grid-template-columns: 1fr;
   }
 
-  .program__card {
+  .ingredients__card {
     margin: 0 10px;
   }
 }
@@ -987,7 +987,7 @@ img {
   /*  grid-template-columns: repeat(4, 1fr);*/
   /*}*/
 
-  .program__container {
+  .ingredients__container {
     grid-template-columns: repeat(2, 400px);
     gap: 2.5rem;
   }
@@ -1209,16 +1209,16 @@ img {
     width: 705px;
   }
 
-  .program__container {
+  .ingredients__container {
     grid-template-columns: repeat(3, 400px);
     padding: 3rem 0;
   }
 
-  .program__card {
+  .ingredients__card {
     padding: 2rem;
   }
 
-  .program__description {
+  .ingredients__description {
     font-size: var(--normal-font-size);
   }
 
