@@ -79,62 +79,62 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data, .footer__container, .footer__group`)
 sr.reveal(`.home__img`, { delay: 700, origin: 'bottom' })
 sr.reveal(`.logos__img, .program__card, .pricing__card`, { interval: 100 })
-sr.reveal(`.choose__img, .calculate__content, .about__logos`, { origin: 'left' })
-sr.reveal(`.choose__content, .calculate__img, .logo-text`, { origin: 'right' })
+sr.reveal(`.choose__img, .whoWeAre__content, .about__logos`, { origin: 'left' })
+sr.reveal(`.choose__content, .whoWeAre__img, .logo-text`, { origin: 'right' })
 
 /*=============== CALCULATE JS ===============*/
-const calculateForm = document.getElementById('calculate-form'),
-    calculateCm = document.getElementById('calculate-cm'),
-    calculateKg = document.getElementById('calculate-kg'),
-    calculateMessage = document.getElementById('calculate-message')
+const whoWeAreForm = document.getElementById('whoWeAre-form'),
+    whoWeAreCm = document.getElementById('whoWeAre-cm'),
+    whoWeAreKg = document.getElementById('whoWeAre-kg'),
+    whoWeAreMessage = document.getElementById('whoWeAre-message')
 
-const calculateBmi = (e) => {
+const whoWeAreBmi = (e) => {
     e.preventDefault()
 
     // Check if the fields have a value
-    if (calculateCm.value === '' || calculateKg.value === '') {
+    if (whoWeAreCm.value === '' || whoWeAreKg.value === '') {
         // Add and remove color
-        calculateMessage.classList.remove('color-green')
-        calculateMessage.classList.add('color-red')
+        whoWeAreMessage.classList.remove('color-green')
+        whoWeAreMessage.classList.add('color-red')
 
         // Show message
-        calculateMessage.textContent = 'Fill in the Height and Weight 👨‍💻'
+        whoWeAreMessage.textContent = 'Fill in the Height and Weight 👨‍💻'
 
         // Remove message three seconds
         setTimeout(() => {
-            calculateMessage.textContent = ''
+            whoWeAreMessage.textContent = ''
         }, 3000)
     } else {
         // BMI Formula
-        const cm = calculateCm.value / 100,
-            kg = calculateKg.value,
+        const cm = whoWeAreCm.value / 100,
+            kg = whoWeAreKg.value,
             bmi = Math.round(kg / (cm * cm))
 
         // Show your health status
         if (bmi < 18.5) {
             // Add color and display message
-            calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `Your BMI is ${bmi} and you are skinny 😔`
+            whoWeAreMessage.classList.add('color-green')
+            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are skinny 😔`
         } else if (bmi < 25) {
-            calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `Your BMI is ${bmi} and you are healthy 🥳`
+            whoWeAreMessage.classList.add('color-green')
+            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are healthy 🥳`
         } else {
-            calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `Your BMI is ${bmi} and you are overweight 😔`
+            whoWeAreMessage.classList.add('color-green')
+            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are overweight 😔`
         }
 
         // To clear the input field
-        calculateCm.value = ''
-        calculateKg.value = ''
+        whoWeAreCm.value = ''
+        whoWeAreKg.value = ''
 
         // Remove message four seconds
         setTimeout(() => {
-            calculateMessage.textContent = ''
+            whoWeAreMessage.textContent = ''
         }, 4000)
     }
 }
 
-calculateForm.addEventListener('submit', calculateBmi)
+whoWeAreForm.addEventListener('submit', whoWeAreBmi)
 
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById('contact-form'),

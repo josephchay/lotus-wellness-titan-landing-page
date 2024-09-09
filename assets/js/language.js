@@ -3,7 +3,7 @@ let lanSelect = document.querySelector(".language-selector")
 let navLinkHome = document.querySelectorAll(".navLinkHome")
 let navLinkAbout = document.querySelectorAll(".navLinkAbout")
 let navLinkIngredients = document.querySelectorAll(".navLinkIngredients")
-let navLinkContact = document.getElementById("navLinkContact")
+let navLinkContact = document.getElementById("navLinkContact") || null;
 let navLinkWhyUs = document.querySelectorAll(".navLinkWhyUs")
 
 let hereToBoostYourHealth = document.getElementById("hereToBoostYour")
@@ -79,6 +79,8 @@ lanSelect.addEventListener("click", () => {
 
         footerProducts.innerHTML = "产品"
         footerMenu.innerHTML = "导航"
+
+       if (navLinkContact !== null)
         navLinkContact.innerHTML = "联系我们"
 
         hereToBoostYourHealth.innerHTML = "提高您的"
@@ -170,7 +172,8 @@ lanSelect.addEventListener("click", () => {
             navLink.innerHTML = "Mengapa Pilih Kami"
         })
 
-        navLinkContact.innerHTML = "Hubungi Kami"
+       if (navLinkContact !== null)
+           navLinkContact.innerHTML = "Hubungi Kami"
 
 
        footerProducts.innerHTML = "Produk"
@@ -274,7 +277,8 @@ lanSelect.addEventListener("click", () => {
        footerMenu.innerHTML = "Menu"
         footerProducts.innerHTML = "Products"
 
-        navLinkContact.innerHTML = "Contact Us"
+       if (navLinkContact !== null)
+           navLinkContact.innerHTML = "Contact Us"
 
         hereToBoostYourHealth.innerHTML = "HERE TO BOOST YOUR"
         energyAndStrength.innerHTML = "ENERGY & "
