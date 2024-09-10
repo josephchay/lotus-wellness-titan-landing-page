@@ -101,25 +101,25 @@ lanSelect.addEventListener("click", () => {
          bestBodySectionTitle.innerHTML = "最好的身体"
 
        macaRoot.innerHTML = "玛卡根"
-       macaRootDesc.innerHTML = "能量和耐力:玛卡根通常用于提高能量水平和增强耐力。性欲:它通常与性欲和性功能增强有关。情绪:一些研究表明它可能有助于情绪调节和减轻焦虑症状。玛卡功效从提升性功能到增强体力、改善男女性更年期的不适感都有所 帮助"
+       macaRootDesc.innerHTML = "能量和耐力:玛卡根通常用于提高能量水平和增强耐力。<br> <br> 性欲:它通常与性欲和性功能增强有关。<br> <br> 情绪:一些研究表明它可能有助于情绪调节和减轻焦虑症状。玛卡功效从提升性功能到增强体力、改善男女性更年期的不适感都有所 帮助"
 
        taurine.innerHTML = "牛磺酸"
        taurineDesc.innerHTML = "能量和恢复:牛磺酸是一种氨基酸,可能有助于提高运动表现和恢复。<br> <br> 心脏健康:它与心血管健康有关,有助于调节血压和胆固醇。 <br> <br> 心理功能:它可以起到神经保护作用,并可能改善认知功能"
 
        oysterExtract.innerHTML = "牡蛎提取物"
-      oysterExtractDesc.innerHTML = "锌来源:牡蛎提取物富含锌,这对睾酮生成和免疫功能至关重要。\n" +
-          "性欲:牡蛎提取物中的锌和其他营养素可以支持性健康和性欲。\n" +
+      oysterExtractDesc.innerHTML = "锌来源:牡蛎提取物富含锌,这对睾酮生成和免疫功能至关重要。\n <br> <br> " +
+          "性欲:牡蛎提取物中的锌和其他营养素可以支持性健康和性欲。\n <br> <br> " +
           "整体健康:它可能提供其他好处,例如改善关节健康和增强认知功能。"
 
        epimediumBrevicornum.innerHTML = "淫羊藿"
-       epimediumBrevicornumDesc.innerHTML = "性欲:这种草药传统上用于增强性欲。\n" +
-           "勃起功能:它可以通过增加血流量来帮助改善勃起功能。\n" +
+       epimediumBrevicornumDesc.innerHTML = "性欲:这种草药传统上用于增强性欲。\n <br> <br> " +
+           "勃起功能:它可以通过增加血流量来帮助改善勃起功能。\n <br> <br> " +
            "骨骼健康:一些证据表明,它可以通过影响雌激素水平来支持骨骼健康。"
 
        longifoliaExtract.innerHTML = "东革阿里"
-         longifoliaExtractDesc.innerHTML = "睾酮水平:这种草药因其提高睾酮水平的潜力而闻名,这有助于增加肌 肉质量和力量。\n" +
-         "性健康:它可以提高性欲和性能力。\n" +
-         "·\n" +
+         longifoliaExtractDesc.innerHTML = "睾酮水平:这种草药因其提高睾酮水平的潜力而闻名,这有助于增加肌 肉质量和力量。\n <br> <br> " +
+         "性健康:它可以提高性欲和性能力。\n <br> <br> " +
+         "\n" +
          "减轻压力:一些研究表明,它可以帮助降低皮质醇水平,从而可能减轻 压力。"
 
        bestReasons.innerHTML = "TITAN 带来的好处"
@@ -200,8 +200,8 @@ lanSelect.addEventListener("click", () => {
             bestBodySectionTitle.innerHTML = " badan terbaik anda"
 
        macaRoot.innerHTML = "Maca Root"
-       macaRootDesc.innerHTML = "Tenaga dan Stamina: Akar Maca sering digunakan untuk meningkatkan tahap tenaga dan stamina.\n" +
-           "Libido: la biasanya dikaitkan dengan peningkatan libido dan fungsi seksual.\n" +
+       macaRootDesc.innerHTML = "Tenaga dan Stamina: Akar Maca sering digunakan untuk meningkatkan tahap tenaga dan stamina.\n <br> <br> " +
+           "Libido: la biasanya dikaitkan dengan peningkatan libido dan fungsi seksual.\n <br> <br> " +
            "Mood: Sesetengah kajian mencadangkan ia boleh membantu dengan pengawalaturan mood dan mengurangkan simptom kegelisahan"
 
        taurine.innerHTML = "Taurin"
@@ -212,20 +212,21 @@ lanSelect.addEventListener("click", () => {
 
 
        oysterExtract.innerHTML = "Ekstrak Tiram"
-       oysterExtractDesc.innerHTML = "Sumber Zink: Ekstrak tiram kaya dengan zink, yang penting untuk pengeluaran testosteron dan fungsi imunisasi\n" +
-           "Libido: Zink dan nutrien didalam ekstrak tiram boleh menyokong kesihatan seksual dan libido.\n" +
+       oysterExtractDesc.innerHTML = "Sumber Zink: Ekstrak tiram kaya dengan zink, yang penting untuk pengeluaran testosteron dan fungsi imunisasi\n <br> <br> " +
+           "Libido: Zink dan nutrien didalam ekstrak tiram boleh menyokong kesihatan seksual dan libido.\n <br> <br> " +
            "Keseluruhan Kesihatan: la mungkin memberikan faedah lain, seperti memperbaikkan kesihatan sendi dan meningkatkan fungsi kognitif."
 
          epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
-            epimediumBrevicornumDesc.innerHTML = "Libido: Herba ini digunakan secara tradisional untuk meningkatkan keinginan seksual.\n" +
-                "• Fungsi Erektil: la boleh membantu meningkatkan fungsi mencapai ereksi dengan meningkatkan aliran darah.\n" +
-                "·\n" +
+            epimediumBrevicornumDesc.innerHTML = "Libido: Herba ini digunakan secara tradisional untuk meningkatkan keinginan seksual.\n <br> <br> " +
+                "Fungsi Erektil: la boleh membantu meningkatkan fungsi mencapai ereksi dengan meningkatkan aliran darah.\n" +
+                "·\n <br> <br> " +
                 "Kesihatan Tulang: Beberapa bukti menunjukkan ia boleh menyokong kesihatan tulang dengan mempengaruhi tahap estrogen."
 
          longifoliaExtract.innerHTML = "Ekstrak Longifolia"
-            longifoliaExtractDesc.innerHTML = "Tahap Testosteron: Herba ini terkenal dengan potensinya untuk meningkatkan tahap testosteron, yang boleh membantu dengan jisim dan kekuatan otot.\n" +
-                "•\n" +
-                "Kesihatan Seksual: la boleh meningkatkan tahap libido dan prestasi seksual. Pengurangan Tekanan: Sesetengah penyelidikan menunjukkan ia boleh membantu mengurangkan tahap kortisol, berpotensi menurunkan tekanan."
+            longifoliaExtractDesc.innerHTML = "Tahap Testosteron: Herba ini terkenal dengan potensinya untuk meningkatkan tahap testosteron, yang boleh membantu dengan jisim dan kekuatan otot.\n <br> <br> " +
+                "\n" +
+                "Kesihatan Seksual: la boleh meningkatkan tahap libido dan prestasi seksual. <br> <br> " +
+                "Pengurangan Tekanan: Sesetengah penyelidikan menunjukkan ia boleh membantu mengurangkan tahap kortisol, berpotensi menurunkan tekanan."
 
        bestReasons.innerHTML = "Manfaat TITAN"
        bestReasonSub.innerHTML = ""
@@ -305,8 +306,8 @@ lanSelect.addEventListener("click", () => {
 
          macaRoot.innerHTML = "Maca Root"
          macaRootDesc.innerHTML = "\n" +
-             "                            Maca root is often used to boost energy levels and enhance stamina.\n" +
-             "                            It's commonly associated with increased libido and sexual function.\n" +
+             "                            Maca root is often used to boost energy levels and enhance stamina.\n <br> <br> " +
+             "                            It's commonly associated with increased libido and sexual function.\n <br> <br> " +
              "                            Studies suggest it may help with mood regulation and reduce symptoms of anxiety."
 
 
@@ -320,22 +321,23 @@ taurine.innerHTML = "Taurine"
 
        oysterExtract.innerHTML = "Oyster Extract"
        oysterExtractDesc.innerHTML = "\n" +
-           "                            Zinc Source: Oyster extract is rich in zinc, which is crucial for testosterone production and immune function.\n" +
+           "                            Zinc Source: Oyster extract is rich in zinc, which is crucial for testosterone production and immune function.\n <br> <br> " +
            "                            Libido: Zinc and other nutrients in oyster extract can support sexual\n" +
-           "                            health and libido.\n" +
+           "                            health and libido. <br> <br> \n" +
            "                            Overall Health: It may provide other benefits, such as improved joint health and enhanced cognitive function."
 
 
 epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
        epimediumBrevicornumDesc.innerHTML = "\n" +
-           "                            Libido: This herb is traditionally used to enhance sexual desire.\n" +
-           "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n" +
+           "                            Libido: This herb is traditionally used to enhance sexual desire.\n <br> <br> " +
+           "                            Erectile Function: It may help improve erectile function by increasing blood flow.\n <br> <br> " +
            "                            Bone Health: Some evidence suggests it can support bone health by influencing estrogen levels."
 
          longifoliaExtract.innerHTML = "Eurycoma longifolia Extract"
             longifoliaExtractDesc.innerHTML = "Testosterone Levels: This herb is known for its potential to" +
-                " increase testosterone levels, which can help with muscle mass and strength. Sexual Health: " +
-                "It may improve libido and sexual performance. Stress Reduction: Some research indicates it can help reduce cortisol levels, potentially lowering stress."
+                " increase testosterone levels, which can help with muscle mass and strength. <br> <br> " +
+                "Sexual Health: It may improve libido and sexual performance. <br> <br> " +
+                "Stress Reduction: Some research indicates it can help reduce cortisol levels, potentially lowering stress."
 
             bestReasons.innerHTML = "Benefits Reason"
        bestReasonSub.innerHTML = ""
