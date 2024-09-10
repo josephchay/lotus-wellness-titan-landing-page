@@ -19,6 +19,7 @@
   --body-color: #26272c;
   --third-color: #3e3e3f;
   --third-color-light: #66666a;
+  --logo-color: #FFEA01;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -99,6 +100,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.emphasis__brand {
+  color: var(--logo-color);
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/

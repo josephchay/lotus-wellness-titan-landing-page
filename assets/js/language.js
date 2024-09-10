@@ -104,7 +104,7 @@ lanSelect.addEventListener("click", () => {
        macaRootDesc.innerHTML = "能量和耐力:玛卡根通常用于提高能量水平和增强耐力。性欲:它通常与性欲和性功能增强有关。情绪:一些研究表明它可能有助于情绪调节和减轻焦虑症状。玛卡功效从提升性功能到增强体力、改善男女性更年期的不适感都有所 帮助"
 
        taurine.innerHTML = "牛磺酸"
-       taurineDesc.innerHTML = "能量和恢复:牛磺酸是一种氨基酸,可能有助于提高运动表现和恢复。心脏健康:它与心血管健康有关,有助于调节血压和胆固醇。心理功能:它可以起到神经保护作用,并可能改善认知功能"
+       taurineDesc.innerHTML = "能量和恢复:牛磺酸是一种氨基酸,可能有助于提高运动表现和恢复。<br> <br> 心脏健康:它与心血管健康有关,有助于调节血压和胆固醇。 <br> <br> 心理功能:它可以起到神经保护作用,并可能改善认知功能"
 
        oysterExtract.innerHTML = "牡蛎提取物"
       oysterExtractDesc.innerHTML = "锌来源:牡蛎提取物富含锌,这对睾酮生成和免疫功能至关重要。\n" +
@@ -206,8 +206,8 @@ lanSelect.addEventListener("click", () => {
 
        taurine.innerHTML = "Taurin"
        taurineDesc.innerHTML = "Tenaga dan Pemulihan: Taurin ialah asid amino yang boleh membantu dengan prestasi senaman dan pemulihan.\n" +
-           "•\n" +
-           "la telah dikaitkan dengan kesihatan kardiovaskular dengan membantu mengawal tekanan darah dan kolesterol.\n" +
+           "\n <br> <br> " +
+           "la telah dikaitkan dengan kesihatan kardiovaskular dengan membantu mengawal tekanan darah dan kolesterol.\n <br> <br> " +
            "Fungsi Mental: la mempunyai kesan neuroprotektif dan mungkin meningkatkan fungsi kognitif."
 
 
@@ -312,8 +312,8 @@ lanSelect.addEventListener("click", () => {
 
 taurine.innerHTML = "Taurine"
          taurineDesc.innerHTML = "\n" +
-             "                            An amino acid that may help with exercise performance and recovery.\n" +
-             "                            Heart Health: It's been linked to cardiovascular health by helping regulate blood pressure and cholesterol.\n" +
+             "                            An amino acid that may help with exercise performance and recovery.\n <br> <br> " +
+             "                            Heart Health: It's been linked to cardiovascular health by helping regulate blood pressure and cholesterol.\n <br> <br> " +
              "                            Mental Function: It can have neuroprotective effects and might improve cognitive function."
 
 

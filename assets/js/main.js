@@ -82,7 +82,7 @@ sr.reveal(`.logos__img, .program__card, .pricing__card`, { interval: 100 })
 sr.reveal(`.choose__img, .whoWeAre__content, .about__logos`, { origin: 'left' })
 sr.reveal(`.choose__content, .whoWeAre__img, .logo-text`, { origin: 'right' })
 
-/*=============== CALCULATE JS ===============*/
+/*=============== WHO WE ARE JS ===============*/
 const whoWeAreForm = document.getElementById('whoWeAre-form'),
     whoWeAreCm = document.getElementById('whoWeAre-cm'),
     whoWeAreKg = document.getElementById('whoWeAre-kg'),
