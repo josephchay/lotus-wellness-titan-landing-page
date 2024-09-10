@@ -88,7 +88,7 @@ lanSelect.addEventListener("click", () => {
 
        homeImg.classList.remove("isEn")
        homeImg.classList.add("isCn")
-       homeDesc.innerHTML = "探索 TITAN，旨在提升您的活力和力量，结合尖端科学与天然成分，帮助您每天实现最佳表现并释放您的全部潜能"
+       homeDesc.innerHTML = "探索 <span class=\"emphasis__brand\">TITAN</span>，旨在提升您的活力和力量，结合尖端科学与天然成分，帮助您每天实现最佳表现并释放您的全部潜能"
 
        scrollToLearnMore.innerHTML = "滑动查看更多"
        let iTag = document.createElement("i")
@@ -122,7 +122,7 @@ lanSelect.addEventListener("click", () => {
          "\n" +
          "减轻压力:一些研究表明,它可以帮助降低皮质醇水平,从而可能减轻 压力。"
 
-       bestReasons.innerHTML = "TITAN 带来的好处"
+       bestReasons.innerHTML = "<span class=\"emphasis__brand\">TITAN</span> 带来的好处"
        bestReasonSub.innerHTML = ""
 
        let tag2 = document.createElement("h1")
@@ -134,7 +134,7 @@ lanSelect.addEventListener("click", () => {
        bestReasonSub.appendChild(tag2)
        bestReasonSub.appendChild(tag3)
 
-       choose__description.innerHTML = "被多名运动员和健身爱好者使用并信任，TITAN 是那些希望提升表现和实现健身目标的完美选择。"
+       choose__description.innerHTML = "被多名运动员和健身爱好者使用并信任，<span class=\"emphasis__brand\">TITAN</span> 是那些希望提升表现和实现健身目标的完美选择。"
 
        healthyIngredients.innerHTML = "健康成分"
          purchasesPurchases.innerHTML = "购买"
@@ -186,7 +186,7 @@ lanSelect.addEventListener("click", () => {
          homeImg.classList.remove("isCn")
             homeImg.classList.add("isBm")
 
-       homeDesc.innerHTML = "Temui TITAN, disesuaikan untuk meningkatkan daya hidup dan kekuatan anda, menggabungkan sains terkini dengan bahan semula jadi untuk membantu anda mencapai prestasi puncak dan membuka potensi penuh anda setiap hari."
+       homeDesc.innerHTML = "Temui <span class=\"emphasis__brand\">TITAN</span>, disesuaikan untuk meningkatkan daya hidup dan kekuatan anda, menggabungkan sains terkini dengan bahan semula jadi untuk membantu anda mencapai prestasi puncak dan membuka potensi penuh anda setiap hari."
 
          scrollToLearnMore.innerHTML = "Gulung untuk ketahui lebih lanjut"
 
@@ -228,7 +228,7 @@ lanSelect.addEventListener("click", () => {
                 "Kesihatan Seksual: la boleh meningkatkan tahap libido dan prestasi seksual. <br> <br> " +
                 "Pengurangan Tekanan: Sesetengah penyelidikan menunjukkan ia boleh membantu mengurangkan tahap kortisol, berpotensi menurunkan tekanan."
 
-       bestReasons.innerHTML = "Manfaat TITAN"
+       bestReasons.innerHTML = "Manfaat <span class=\"emphasis__brand\">TITAN</span>"
        bestReasonSub.innerHTML = ""
        let tag2 = document.createElement("h1")
        tag2.classList.add("section__title-border")
@@ -239,7 +239,7 @@ lanSelect.addEventListener("click", () => {
        bestReasonSub.appendChild(tag2)
        bestReasonSub.appendChild(tag3)
 
-        choose__description.innerHTML = "Digunakan dan dipercayai oleh ramai atlet dan peminat kecergasan, TITAN adalah pilihan yang sempurna untuk mereka yang ingin meningkatkan prestasi dan mencapai matlamat kecergasan mereka."
+        choose__description.innerHTML = "Digunakan dan dipercayai oleh ramai atlet dan peminat kecergasan, <span class=\"emphasis__brand\">TITAN</span> adalah pilihan yang sempurna untuk mereka yang ingin meningkatkan prestasi dan mencapai matlamat kecergasan mereka."
 
        healthyIngredients.innerHTML = "Bahan-bahan Sihat"
          purchasesPurchases.innerHTML = "Pembelian"
@@ -290,7 +290,7 @@ lanSelect.addEventListener("click", () => {
             homeImg.classList.add("isEn")
 
        homeDesc.innerHTML = "\n" +
-           "                        Discover TITAN, tailored to elevate your vitality and power,\n" +
+           "                        Discover <span class=\"emphasis__brand\">TITAN</span>, tailored to elevate your vitality and power,\n" +
            "                        combining cutting-edge science with natural ingredients\n" +
            "                        to help you achieve peak performance and unlock your full potential every day."
 
@@ -350,7 +350,7 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
             bestReasonSub.appendChild(tag2)
             bestReasonSub.appendChild(tag3)
 
-            choose__description.innerHTML = "Used and trusted by many athletes and fitness enthusiasts, TITAN is the perfect choice for those looking to boost performance and achieve their fitness goals."
+            choose__description.innerHTML = "Used and trusted by many athletes and fitness enthusiasts, <span class=\"emphasis__brand\">TITAN</span> is the perfect choice for those looking to boost performance and achieve their fitness goals."
 
 
          healthyIngredients.innerHTML = "Healthy Ingredients"
