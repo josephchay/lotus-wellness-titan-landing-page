@@ -54,6 +54,8 @@ let subscribeCTA = document.querySelector(".subscribeCTA")
 let yourEmailCTA = document.querySelector(".yourEmailCTA")
 let subscribeBtnCTA = document.querySelector(".subscribeBtnCTA")
 
+let purchaseCount = document.getElementById("purchaseCount");
+
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
       lanSelect.classList.remove("eng")
@@ -148,6 +150,8 @@ lanSelect.addEventListener("click", () => {
 
        yourEmailCTA.placeholder = "您的电子邮件"
          subscribeBtnCTA.innerHTML = "订阅"
+
+       purchaseCount.innerHTML = "10000+ / 半年"
 
    } else if (lanSelect.classList.contains("cn")) {
       lanSelect.classList.remove("cn")
@@ -254,6 +258,7 @@ lanSelect.addEventListener("click", () => {
          yourEmailCTA.placeholder = "Emel Anda"
             subscribeBtnCTA.innerHTML = "Langgan"
 
+         purchaseCount.innerHTML = "10000+ / setengah tahun"
    } else {
       lanSelect.classList.remove("bm")
       lanSelect.classList.add("eng")
@@ -365,5 +370,7 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
 
             yourEmailCTA.placeholder = "Your Email"
             subscribeBtnCTA.innerHTML = "Subscribe"
+
+       purchaseCount.innerHTML = "10000+ / half year"
    }
 });

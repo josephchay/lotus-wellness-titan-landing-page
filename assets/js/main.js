@@ -143,6 +143,7 @@ const contactForm = document.getElementById('contact-form'),
 
 const sendEmail = (e) => {
     e.preventDefault()
+    console.log(123)
 
     // Check if the field has a value
     if (contactUser.value === '') {
