@@ -82,68 +82,13 @@ sr.reveal(`.logos__img, .program__card, .pricing__card`, { interval: 100 })
 sr.reveal(`.choose__img, .whoWeAre__content, .about__logos`, { origin: 'left' })
 sr.reveal(`.choose__content, .whoWeAre__img, .logo-text`, { origin: 'right' })
 
-/*=============== WHO WE ARE JS ===============*/
-const whoWeAreForm = document.getElementById('whoWeAre-form'),
-    whoWeAreCm = document.getElementById('whoWeAre-cm'),
-    whoWeAreKg = document.getElementById('whoWeAre-kg'),
-    whoWeAreMessage = document.getElementById('whoWeAre-message')
-
-const whoWeAreBmi = (e) => {
-    e.preventDefault()
-
-    // Check if the fields have a value
-    if (whoWeAreCm.value === '' || whoWeAreKg.value === '') {
-        // Add and remove color
-        whoWeAreMessage.classList.remove('color-green')
-        whoWeAreMessage.classList.add('color-red')
-
-        // Show message
-        whoWeAreMessage.textContent = 'Fill in the Height and Weight 👨‍💻'
-
-        // Remove message three seconds
-        setTimeout(() => {
-            whoWeAreMessage.textContent = ''
-        }, 3000)
-    } else {
-        // BMI Formula
-        const cm = whoWeAreCm.value / 100,
-            kg = whoWeAreKg.value,
-            bmi = Math.round(kg / (cm * cm))
-
-        // Show your health status
-        if (bmi < 18.5) {
-            // Add color and display message
-            whoWeAreMessage.classList.add('color-green')
-            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are skinny 😔`
-        } else if (bmi < 25) {
-            whoWeAreMessage.classList.add('color-green')
-            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are healthy 🥳`
-        } else {
-            whoWeAreMessage.classList.add('color-green')
-            whoWeAreMessage.textContent = `Your BMI is ${bmi} and you are overweight 😔`
-        }
-
-        // To clear the input field
-        whoWeAreCm.value = ''
-        whoWeAreKg.value = ''
-
-        // Remove message four seconds
-        setTimeout(() => {
-            whoWeAreMessage.textContent = ''
-        }, 4000)
-    }
-}
-
-whoWeAreForm.addEventListener('submit', whoWeAreBmi)
-
 /*=============== EMAIL JS ===============*/
-const contactForm = document.getElementById('contact-form'),
-    contactMessage = document.getElementById('contact-message'),
+// const contactForm = document.getElementById('contact-form'),
+const contactMessage = document.getElementById('contact-message'),
     contactUser = document.getElementById('contact-user')
 
 const sendEmail = (e) => {
     e.preventDefault()
-    console.log(123)
 
     // Check if the field has a value
     if (contactUser.value === '') {
@@ -180,4 +125,4 @@ const sendEmail = (e) => {
     }
 }
 
-contactForm.addEventListener('submit', sendEmail)
+// contactForm.addEventListener('submit', sendEmail);

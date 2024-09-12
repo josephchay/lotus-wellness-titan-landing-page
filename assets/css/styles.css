@@ -568,6 +568,7 @@ img {
 
 .choose__subtitle {
   font-size: var(--small-font-size);
+  text-align: left;
 }
 
 .choose__triangle {

@@ -52,9 +52,9 @@ let weAreAbout = document.querySelector(".weAreAbout")
 let subscribeCTA = document.querySelector(".subscribeCTA")
 
 let yourEmailCTA = document.querySelector(".yourEmailCTA")
-let subscribeBtnCTA = document.querySelector(".subscribeBtnCTA")
+// let subscribeBtnCTA = document.querySelector(".subscribeBtnCTA")
 
-let purchaseCount = document.getElementById("purchaseCount");
+let purchasesPurchaseHalfYear = document.querySelector(".purchasesPurchaseHalfYear");
 
 lanSelect.addEventListener("click", () => {
    if (lanSelect.classList.contains("eng")) {
@@ -146,12 +146,12 @@ lanSelect.addEventListener("click", () => {
        whoAreWeAbout.innerHTML = "关于我们"
          weAreAbout.innerHTML = "我们是一家专注于提供高品质健康产品的公司，我们的产品是由专业团队精心研发，旨在提高您的生活质量。"
 
-       subscribeCTA.innerHTML = "订阅公司最新动态"
+       // subscribeCTA.innerHTML = "订阅公司最新动态"
 
-       yourEmailCTA.placeholder = "您的电子邮件"
-         subscribeBtnCTA.innerHTML = "订阅"
+       // yourEmailCTA.placeholder = "您的电子邮件"
+         // subscribeBtnCTA.innerHTML = "订阅"
 
-       purchaseCount.innerHTML = "10000+ / 半年"
+       purchasesPurchaseHalfYear.innerHTML = "/ 半年"
 
    } else if (lanSelect.classList.contains("cn")) {
       lanSelect.classList.remove("cn")
@@ -253,12 +253,12 @@ lanSelect.addEventListener("click", () => {
          whoAreWeAbout.innerHTML = "Tentang Kami"
             weAreAbout.innerHTML = "Kami adalah syarikat yang memberi tumpuan kepada produk kesihatan berkualiti tinggi, produk kami direka khas oleh pasukan profesional, bertujuan untuk meningkatkan kualiti hidup anda."
 
-         subscribeCTA.innerHTML = "Langgan berita terkini syarikat"
+         // subscribeCTA.innerHTML = "Langgan berita terkini syarikat"
 
-         yourEmailCTA.placeholder = "Emel Anda"
-            subscribeBtnCTA.innerHTML = "Langgan"
+         // yourEmailCTA.placeholder = "Emel Anda"
+            // subscribeBtnCTA.innerHTML = "Langgan"
 
-         purchaseCount.innerHTML = "10000+ / setengah tahun"
+         purchasesPurchaseHalfYear.innerHTML = "/ setengah tahun"
    } else {
       lanSelect.classList.remove("bm")
       lanSelect.classList.add("eng")
@@ -366,11 +366,11 @@ epimediumBrevicornum.innerHTML = "Epimedium Brevicornum"
             whoAreWeAbout.innerHTML = "About Us"
             weAreAbout.innerHTML = "We are a company focused on providing high-quality health products, our products are carefully developed by a professional team, aimed at improving your quality of life."
 
-         subscribeCTA.innerHTML = "Subscribe for new company updates"
+         // subscribeCTA.innerHTML = "Subscribe for new company updates"
 
-            yourEmailCTA.placeholder = "Your Email"
-            subscribeBtnCTA.innerHTML = "Subscribe"
+            // yourEmailCTA.placeholder = "Your Email"
+            // subscribeBtnCTA.innerHTML = "Subscribe"
 
-       purchaseCount.innerHTML = "10000+ / half year"
+       purchasesPurchaseHalfYear.innerHTML = "/ half year"
    }
 });
