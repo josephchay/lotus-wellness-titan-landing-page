@@ -103,15 +103,15 @@ lanSelect.addEventListener("click", () => {
          bestBodySectionTitle.innerHTML = "最好的身体"
 
        macaRoot.innerHTML = "玛卡根"
-       macaRootDesc.innerHTML = "能量和耐力:玛卡根通常用于提高能量水平和增强耐力。<br> <br> 性欲:它通常与性欲和性功能增强有关。<br> <br> 情绪:一些研究表明它可能有助于情绪调节和减轻焦虑症状。玛卡功效从提升性功能到增强体力、改善男女性更年期的不适感都有所 帮助"
+       macaRootDesc.innerHTML = "能量和耐力:玛卡根通常用于提高能量水平和增强耐力。<br> <br> 性欲:它通常与性欲和性功能增强有关。<br> <br> 情绪:一些研究表明它有助于情绪调节和减轻焦虑症状。玛卡功效从提升性功能到增强体力、改善男女性更年期的不适感都有所 帮助"
 
        taurine.innerHTML = "牛磺酸"
-       taurineDesc.innerHTML = "能量和恢复:牛磺酸是一种氨基酸,可能有助于提高运动表现和恢复。<br> <br> 心脏健康:它与心血管健康有关,有助于调节血压和胆固醇。 <br> <br> 心理功能:它可以起到神经保护作用,并可能改善认知功能"
+       taurineDesc.innerHTML = "能量和恢复:牛磺酸是一种氨基酸,有助于提高运动表现和恢复。<br> <br> 心脏健康:它与心血管健康有关,有助于调节血压和胆固醇。 <br> <br> 心理功能:它可以起到神经保护作用,并改善认知功能"
 
        oysterExtract.innerHTML = "牡蛎提取物"
       oysterExtractDesc.innerHTML = "锌来源:牡蛎提取物富含锌,这对睾酮生成和免疫功能至关重要。\n <br> <br> " +
           "性欲:牡蛎提取物中的锌和其他营养素可以支持性健康和性欲。\n <br> <br> " +
-          "整体健康:它可能提供其他好处,例如改善关节健康和增强认知功能。"
+          "整体健康:它提供其他好处,例如改善关节健康和增强认知功能。"
 
        epimediumBrevicornum.innerHTML = "淫羊藿"
        epimediumBrevicornumDesc.innerHTML = "性欲:这种草药传统上用于增强性欲。\n <br> <br> " +
@@ -122,7 +122,7 @@ lanSelect.addEventListener("click", () => {
          longifoliaExtractDesc.innerHTML = "睾酮水平:这种草药因其提高睾酮水平的潜力而闻名,这有助于增加肌 肉质量和力量。\n <br> <br> " +
          "性健康:它可以提高性欲和性能力。\n <br> <br> " +
          "\n" +
-         "减轻压力:一些研究表明,它可以帮助降低皮质醇水平,从而可能减轻 压力。"
+         "减轻压力:一些研究表明,它可以帮助降低皮质醇水平,从而减轻 压力。"
 
        bestReasons.innerHTML = "<span class=\"emphasis__brand\">TITAN</span> 带来的好处"
        bestReasonSub.innerHTML = ""
