@@ -595,7 +595,7 @@ img {
 }
 
 .choose__img {
-  width: 260px;
+  width: 460px;
   display: block;
   position: relative;
   z-index: 1;
@@ -941,7 +941,7 @@ img {
   }
 
   .choose__img {
-    width: 195px;
+    width: 395px;
   }
 
   .pricing__container {
@@ -964,6 +964,12 @@ img {
 
   .ingredients__card {
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .choose__subtitle {
+    text-align: center;
   }
 }
 
@@ -1140,7 +1146,7 @@ img {
   }
 
   .choose__img {
-    width: 350px;
+    width: 550px;
   }
 
   .choose__triangle {
@@ -1235,7 +1241,7 @@ img {
   }
 
   .choose__img {
-    width: 450px;
+    width: 650px;
     margin: 0 0 0 auto;
   }
 
