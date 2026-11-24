@@ -32,4 +32,4 @@ The Domain last for a year from **3rd September 2024** - **3rd September 2025**.
 
 The site hosting last for 2 years from **3rd September 2024** - **3rd September 2026**.
 
-![Hostinger hPanel Hosting](image.png)
+![Hostinger hPanel Hosting](miscellaneous/image.png)
