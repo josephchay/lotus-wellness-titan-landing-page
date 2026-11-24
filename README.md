@@ -1,10 +1,12 @@
-# Lotus Wellness TITAN Landing Page
+# Lotus Wellness TITAN Product Portfolio
 
 ---
 
 ## About
 
-A landing page for product named TITAN under lotus wellness brand, requested by (at the time) owner Jimmy Lui.
+A landing folio to market TITAN under lotus wellness brand, requested by (at the time) owner Jimmy Lui and client Liew Jia Yie
+
+_Supporting project correspondence and development records available upon request._
 
 ## Demo
 
@@ -30,4 +32,4 @@ The Domain last for a year from **3rd September 2024** - **3rd September 2025**.
 
 The site hosting last for 2 years from **3rd September 2024** - **3rd September 2026**.
 
-NOTE: The expiring dates will renew!. Please cancel if needed.
+![Hostinger hPanel Hosting](image.png)
